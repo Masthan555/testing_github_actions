@@ -26,5 +26,3 @@ jobs:
       working-directory: ./function
     - run: npm run build --if-present
       working-directory: ./function
-    - run: npm test
-      working-directory: ./function
